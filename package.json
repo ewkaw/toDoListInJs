@@ -1,0 +1,17 @@
+{
+  "name": "injs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "start:api": "json-server --watch db.json --port 3004",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "parcel": "^2.10.3"
+  }
+}
